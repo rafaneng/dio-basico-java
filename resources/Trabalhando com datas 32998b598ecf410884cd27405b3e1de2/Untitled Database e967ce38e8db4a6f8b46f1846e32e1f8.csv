@@ -1,0 +1,12 @@
+﻿Método,Retorno,Descrição
+after(Date),boolean,"Checa se o objeto Data de referência é
+posterior ao comparado"
+before(Date),boolean,"Checa se o objeto Data de referência é
+anterior ao comparado"
+compareTo(Date),int,Compara dois objetos Data
+equals(Date),boolean,Checa se os objetos são iguais
+getTime(),long,Retorna a data em milissegundos
+setTime(long),void,"Define uma data com base em
+milissegundos"
+from(Instante),static Date,Define uma data com base em um Instant
+toInstant(),Instant,Retorna um Instant com base em um Date
